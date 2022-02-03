@@ -1,0 +1,39 @@
+.each-recent-match-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #1e293b;
+  margin: 10px;
+  border-radius: 20px;
+  width: 100%;
+  padding: 20px;
+  height: 400px;
+}
+
+.each-competing-team-logo {
+  width: 120px;
+  height: 120px;
+}
+
+.competing-team-text {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.each-match-status-text {
+  font-family: 'Bree Serif';
+  color: #e31a1a;
+  font-size: 20px;
+}
+
+.each-match-result-text {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+@media screen and (min-width: 650px) {
+  .each-recent-match-card {
+    width: 30%;
+  }
+}

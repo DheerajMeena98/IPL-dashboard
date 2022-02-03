@@ -1,0 +1,120 @@
+.latest-match-details-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.latest-matches-heading {
+  font-size: 24px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.latest-match-details-card {
+  border-radius: 20px;
+  background-color: #1e293b;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.latest-match-competing-team-details-logo-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.latest-match-against-team-card {
+  width: 45%;
+}
+
+.competing-team-logo {
+  width: 45%;
+}
+
+.latest-match-results-container {
+  align-self: flex-start;
+  margin-top: 20px;
+}
+
+.horizontal-line {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.competing-team-heading {
+  color: #ffffff;
+  margin-top: 7px;
+  font-size: 22px;
+  font-family: 'Bree Serif';
+}
+
+.match-date {
+  color: #ffffff;
+  margin-top: 20px;
+  font-family: 'Bree Serif';
+}
+
+.match-venue {
+  color: #ffffff;
+  margin-top: 20px;
+  font-family: 'Bree Serif';
+}
+
+.match-result {
+  color: #ffffff;
+  margin-top: 20px;
+  font-family: 'Bree Serif';
+}
+
+.match-results-label {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.match-results-text {
+  font-family: Bree Serif;
+  color: #ffffff;
+  margin-top: 7px;
+}
+
+@media screen and (min-width: 650px) {
+  .latest-match-details-card {
+    flex-direction: row;
+  }
+
+  .horizontal-line {
+    display: none;
+  }
+
+  .latest-match-competing-team-details-logo-card {
+    width: 60%;
+    justify-content: space-around;
+  }
+
+  .latest-match-against-team-card {
+    width: 40%;
+    flex-wrap: nowrap;
+  }
+
+  .competing-team-logo {
+    width: 35%;
+  }
+
+  .competing-team-heading {
+    font-size: 24px;
+  }
+
+  .latest-match-results-container {
+    width: 30%;
+  }
+}
